@@ -32,5 +32,6 @@ if st.button("Calculate"):
 
     if result is not None:
 
-        st.success(f"Result: {result}")
+        st.success(f"Result of calculation: {result}")
+
 
