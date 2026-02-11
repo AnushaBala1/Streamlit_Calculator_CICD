@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Calculator App", layout="centered")
 
-st.title("Simple Calculator – CI/CD Demo")
+st.title("Updated Calculator – Jenkins CI/CD")
 st.write("This calculator application is deployed using Jenkins CI/CD pipeline.")
 
 # Input numbers
@@ -31,4 +31,5 @@ if st.button("Calculate"):
             st.error("Division by zero is not allowed")
 
     if result is not None:
+
         st.success(f"Result: {result}")
